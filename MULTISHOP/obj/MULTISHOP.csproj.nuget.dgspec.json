@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ca.r214.10\\Desktop\\back to front ab106\\MULTISHOP\\MULTISHOP\\MULTISHOP.csproj": {}
+    "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\MULTISHOP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ca.r214.10\\Desktop\\back to front ab106\\MULTISHOP\\MULTISHOP\\MULTISHOP.csproj": {
+    "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\MULTISHOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ca.r214.10\\Desktop\\back to front ab106\\MULTISHOP\\MULTISHOP\\MULTISHOP.csproj",
+        "projectUniqueName": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\MULTISHOP.csproj",
         "projectName": "MULTISHOP",
-        "projectPath": "C:\\Users\\ca.r214.10\\Desktop\\back to front ab106\\MULTISHOP\\MULTISHOP\\MULTISHOP.csproj",
-        "packagesPath": "C:\\Users\\ca.r214.10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ca.r214.10\\Desktop\\back to front ab106\\MULTISHOP\\MULTISHOP\\obj\\",
+        "projectPath": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\MULTISHOP.csproj",
+        "packagesPath": "C:\\Users\\Emil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ca.r214.10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Emil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,6 +45,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.2, )"
@@ -69,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
