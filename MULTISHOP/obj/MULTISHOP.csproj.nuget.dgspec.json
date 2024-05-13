@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\MULTISHOP.csproj": {}
+    "C:\\Users\\ca.r214.10\\Desktop\\New folder (2)\\EmilMultishop\\MULTISHOP\\MULTISHOP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\MULTISHOP.csproj": {
+    "C:\\Users\\ca.r214.10\\Desktop\\New folder (2)\\EmilMultishop\\MULTISHOP\\MULTISHOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\MULTISHOP.csproj",
+        "projectUniqueName": "C:\\Users\\ca.r214.10\\Desktop\\New folder (2)\\EmilMultishop\\MULTISHOP\\MULTISHOP.csproj",
         "projectName": "MULTISHOP",
-        "projectPath": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\MULTISHOP.csproj",
-        "packagesPath": "C:\\Users\\Emil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\obj\\",
+        "projectPath": "C:\\Users\\ca.r214.10\\Desktop\\New folder (2)\\EmilMultishop\\MULTISHOP\\MULTISHOP.csproj",
+        "packagesPath": "C:\\Users\\ca.r214.10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ca.r214.10\\Desktop\\New folder (2)\\EmilMultishop\\MULTISHOP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Emil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ca.r214.10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

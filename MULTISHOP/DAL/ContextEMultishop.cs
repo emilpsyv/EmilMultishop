@@ -11,7 +11,7 @@ namespace MULTISHOP.DAL
         public DbSet <Category> Categories { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-742DB1G;Database=EMILMULTISHOP;Trusted_Connection=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=CA-R214-PC10\\SQLEXPRESS;Database=EMILMULTISHOPp;Trusted_Connection=True;TrustServerCertificate=True;");
             base.OnConfiguring(optionsBuilder);
         }
 

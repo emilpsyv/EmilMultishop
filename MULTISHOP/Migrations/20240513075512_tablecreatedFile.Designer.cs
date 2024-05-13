@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MULTISHOP.Migrations
 {
     [DbContext(typeof(ContextEMultishop))]
-    [Migration("20240512184106_CategoryTableCreated")]
-    partial class CategoryTableCreated
+    [Migration("20240513075512_tablecreatedFile")]
+    partial class tablecreatedFile
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,6 +35,10 @@ namespace MULTISHOP.Migrations
 
                     b.Property<DateTime>("DateTime")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("ImgUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
