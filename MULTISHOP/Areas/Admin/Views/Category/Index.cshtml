@@ -4,7 +4,7 @@
    
 }
 
-@model List<GetCategoryVm>
+@model List<GetCategoryAdminVm>
 
 <h5 class="card-title fw-semibold mb-4">Category</h5>
 <a asp-controller="Category" asp-action="Create" class="btn btn-success ">Create</a>
@@ -16,10 +16,19 @@
                     <h6 class="fw-semibold mb-0">Id</h6>
                 </th>
                 <th class="border-bottom-0">
+                    <h6 class="fw-semibold mb-0">Image</h6>
+                </th>
+                <th class="border-bottom-0">
                     <h6 class="fw-semibold mb-0">Category</h6>
                 </th>
                 <th class="border-bottom-0">
-                    <h6 class="fw-semibold mb-0">image</h6>
+                    <h6 class="fw-semibold mb-0">Created time</h6>
+                </th>
+                <th class="border-bottom-0">
+                    <h6 class="fw-semibold mb-0">Updated time</h6>
+                </th>
+                <th class="border-bottom-0">
+                    <h6 class="fw-semibold mb-0">Visiblity</h6>
                 </th>
                 <th class="border-bottom-0">
                     <h6 class="fw-semibold mb-0">Action</h6>
@@ -34,11 +43,28 @@
                         @datas.Id
                     </td>
                     <td class="border-bottom-0">
+                        <img src="~/@datas.ImgUrl" width="50" />
+                    </td>
+                    <td class="border-bottom-0">
                         @datas.Name
-                    <td />
+                    </td>
+                    <td class="border-bottom-0">
+                        @datas.CreatedTime
+                    </td>
+                    <td class="border-bottom-0">
+                        @datas.UpdatedTime
+                    </td>
+                    <td>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input change-visiblity" style="width:3.5em ;height:1.75em" slider-id="@datas.Id" type="checkbox" checked="!@datas.IsDeleted">
+                            
+                        </div>
+                    </td>
+                    <th class="border-bottom-0">
+                        <a asp-action="Update" asp-route-id="@datas.Id" class=" btn btn-warning">Edit</a>
+                        <a asp-action="DeleteSlider" asp-route-id="@datas.Id" class=" btn btn-warning">Delete</a>
 
-                    <a asp-action="Update" asp-route-id="@datas.Id" class=" btn btn-warning">Edit</a>
-                    <a asp-action="DeleteCategory" asp-route-id="@datas.Id" class=" btn btn-warning">Delete</a>
+                    </th>
 
 
                 </tr>
@@ -46,3 +72,47 @@
         </tbody>
     </table>
 </div>
+@section styles {
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
+}
+
+@section scripts {
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+<script>
+       
+    toastr.options = {
+        "closeButton": false,
+        "debug": false,
+        "newestOnTop": false,
+        "progressBar": true,
+        "positionClass": "toast-top-right",
+        "preventDuplicates": false,
+        "onclick": null,
+        "showDuration": "300",
+        "hideDuration": "500",
+        "timeOut": "2000",
+        "extendedTimeOut": "1000",
+        "showEasing": "linear",
+        "hideEasing": "linear",
+        "showMethod": "fadeIn",
+        "hideMethod": "fadeOut"
+    }
+    let inputs = document.getElementsByClassName("change-visiblity");
+    inputs.forEach(i => {
+        i.addEventListener("change", () => {
+            fetch("http://localhost:5111/Admin/Category/ChangeVisiblity/" + i.getAttribute("slider-id"))
+                .then(res => {
+                    if (res.status == 200) {
+                            toastr["success"]("ugurla deyisdi")
+                    }
+
+                    else {
+                    toastr["error"]("xeta bas verdi")
+                    }
+                })
+                    .catch(err => toastr["error"]("xeta bas verdi"))
+        });
+        })
+</script>
+  
+}

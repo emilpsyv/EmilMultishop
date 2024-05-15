@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace MULTISHOP.Migrations
 {
     /// <inheritdoc />
-    public partial class tablecreatedFile : Migration
+    public partial class rablesAdded : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -20,7 +20,8 @@ namespace MULTISHOP.Migrations
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ImgUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false),
-                    DateTime = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    CreatedTime = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    UpdatedTime = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {

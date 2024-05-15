@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MULTISHOP.Migrations
 {
     [DbContext(typeof(ContextEMultishop))]
-    [Migration("20240513075512_tablecreatedFile")]
-    partial class tablecreatedFile
+    [Migration("20240514211402_rablesAdded")]
+    partial class rablesAdded
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,7 +33,7 @@ namespace MULTISHOP.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("DateTime")
+                    b.Property<DateTime>("CreatedTime")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("ImgUrl")
@@ -46,6 +46,9 @@ namespace MULTISHOP.Migrations
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdatedTime")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
