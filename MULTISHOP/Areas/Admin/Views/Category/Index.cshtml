@@ -56,8 +56,7 @@
                     </td>
                     <td>
                         <div class="form-check form-switch">
-                            <input class="form-check-input change-visiblity" style="width:3.5em ;height:1.75em" slider-id="@datas.Id" type="checkbox" checked="!@datas.IsDeleted">
-                            
+                            <input class="form-check-input change-visiblity" style="width:3.5em; height:1.75em" slider-id="@datas.Id" type="checkbox" checked="@(!datas.IsDeleted)">
                         </div>
                     </td>
                     <th class="border-bottom-0">
@@ -75,44 +74,43 @@
 @section styles {
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
 }
-
 @section scripts {
-<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
-<script>
-       
-    toastr.options = {
-        "closeButton": false,
-        "debug": false,
-        "newestOnTop": false,
-        "progressBar": true,
-        "positionClass": "toast-top-right",
-        "preventDuplicates": false,
-        "onclick": null,
-        "showDuration": "300",
-        "hideDuration": "500",
-        "timeOut": "2000",
-        "extendedTimeOut": "1000",
-        "showEasing": "linear",
-        "hideEasing": "linear",
-        "showMethod": "fadeIn",
-        "hideMethod": "fadeOut"
-    }
-    let inputs = document.getElementsByClassName("change-visiblity");
-    inputs.forEach(i => {
-        i.addEventListener("change", () => {
-            fetch("http://localhost:5111/Admin/Category/ChangeVisiblity/" + i.getAttribute("slider-id"))
-                .then(res => {
-                    if (res.status == 200) {
-                            toastr["success"]("ugurla deyisdi")
-                    }
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script>
+        Command:
 
-                    else {
-                    toastr["error"]("xeta bas verdi")
-                    }
-                })
-                    .catch(err => toastr["error"]("xeta bas verdi"))
-        });
+        toastr.options = {
+            "closeButton": false,
+            "debug": false,
+            "newestOnTop": false,
+            "progressBar": true,
+            "positionClass": "toast-top-right",
+            "preventDuplicates": false,
+            "onclick": null,
+            "showDuration": "300",
+            "hideDuration": "500",
+            "timeOut": "2000",
+            "extendedTimeOut": "1000",
+            "showEasing": "linear",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }
+        let inputs = document.getElementsByClassName("change-visiblity");
+        inputs.forEach(i => {
+            i.addEventListener("change", () => {
+                fetch("https://localhost:7267/Admin/Slider/ChangeVisiblity/" + i.getAttribute("slider-id"))
+                    .then(res => {
+                        if (res.status == 200) {
+                            toastr["success"]("Staus dəyişdirildi");
+                        }
+                        else {
+                            toastr["error"]("Xəta baş verdi")
+                        }
+                    })
+                    .catch(err => toastr["error"]("Xəta baş verdi"))
+            });
         })
-</script>
-  
+
+    </script>
 }

@@ -3,51 +3,50 @@
   "WorkspaceRootPath": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B6086EB-A19B-421D-8575-7E981720DEA4}|MULTISHOP\\MULTISHOP.csproj|c:\\users\\emil\\desktop\\code academy task\\task 29\\mulyoshop\\emilmultishop\\multishop\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0B6086EB-A19B-421D-8575-7E981720DEA4}|MULTISHOP\\MULTISHOP.csproj|solutionrelative:multishop\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0B6086EB-A19B-421D-8575-7E981720DEA4}|MULTISHOP\\MULTISHOP.csproj|c:\\users\\emil\\desktop\\code academy task\\task 29\\mulyoshop\\emilmultishop\\multishop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B6086EB-A19B-421D-8575-7E981720DEA4}|MULTISHOP\\MULTISHOP.csproj|solutionrelative:multishop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B6086EB-A19B-421D-8575-7E981720DEA4}|MULTISHOP\\MULTISHOP.csproj|C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\multishop\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B6086EB-A19B-421D-8575-7E981720DEA4}|MULTISHOP\\MULTISHOP.csproj|solutionrelative:multishop\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B6086EB-A19B-421D-8575-7E981720DEA4}|MULTISHOP\\MULTISHOP.csproj|c:\\users\\emil\\desktop\\code academy task\\task 29\\mulyoshop\\emilmultishop\\multishop\\viewmodels\\homevm\\sendvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6086EB-A19B-421D-8575-7E981720DEA4}|MULTISHOP\\MULTISHOP.csproj|solutionrelative:multishop\\viewmodels\\homevm\\sendvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B6086EB-A19B-421D-8575-7E981720DEA4}|MULTISHOP\\MULTISHOP.csproj|c:\\users\\emil\\desktop\\code academy task\\task 29\\mulyoshop\\emilmultishop\\multishop\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0B6086EB-A19B-421D-8575-7E981720DEA4}|MULTISHOP\\MULTISHOP.csproj|solutionrelative:multishop\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0B6086EB-A19B-421D-8575-7E981720DEA4}|MULTISHOP\\MULTISHOP.csproj|c:\\users\\emil\\desktop\\code academy task\\task 29\\mulyoshop\\emilmultishop\\multishop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6086EB-A19B-421D-8575-7E981720DEA4}|MULTISHOP\\MULTISHOP.csproj|solutionrelative:multishop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6086EB-A19B-421D-8575-7E981720DEA4}|MULTISHOP\\MULTISHOP.csproj|c:\\users\\emil\\desktop\\code academy task\\task 29\\mulyoshop\\emilmultishop\\multishop\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6086EB-A19B-421D-8575-7E981720DEA4}|MULTISHOP\\MULTISHOP.csproj|solutionrelative:multishop\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6086EB-A19B-421D-8575-7E981720DEA4}|MULTISHOP\\MULTISHOP.csproj|c:\\users\\emil\\desktop\\code academy task\\task 29\\mulyoshop\\emilmultishop\\multishop\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B6086EB-A19B-421D-8575-7E981720DEA4}|MULTISHOP\\MULTISHOP.csproj|solutionrelative:multishop\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6086EB-A19B-421D-8575-7E981720DEA4}|MULTISHOP\\MULTISHOP.csproj|c:\\users\\emil\\desktop\\code academy task\\task 29\\mulyoshop\\emilmultishop\\multishop\\viewmodels\\sliders\\createslidervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6086EB-A19B-421D-8575-7E981720DEA4}|MULTISHOP\\MULTISHOP.csproj|solutionrelative:multishop\\viewmodels\\sliders\\createslidervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 299,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 525,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MULTISHOP\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MULTISHOP\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAIIAAAAAAAAAAAAAAIgAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-14T23:09:08.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "MULTISHOP\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "MULTISHOP\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ViewState": "AQIAAGQAAAAAAAAAAAAwwDoAAACWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-14T21:27:49.341Z",
+              "DocumentIndex": 1,
+              "Title": "SendVM.cs",
+              "DocumentMoniker": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\ViewModels\\HomeVM\\SendVM.cs",
+              "RelativeDocumentMoniker": "MULTISHOP\\ViewModels\\HomeVM\\SendVM.cs",
+              "ToolTip": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\ViewModels\\HomeVM\\SendVM.cs",
+              "RelativeToolTip": "MULTISHOP\\ViewModels\\HomeVM\\SendVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T00:18:48.712Z",
               "EditorCaption": ""
             },
             {
@@ -56,15 +55,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "MULTISHOP\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "MULTISHOP\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAADwv0gAAAAXAAAA",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MULTISHOP\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MULTISHOP\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T23:55:40.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MULTISHOP\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MULTISHOP\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8BAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T23:53:15.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MULTISHOP\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MULTISHOP\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBkAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T18:19:52.597Z",
+              "WhenOpened": "2024-05-15T23:50:00.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateSliderVM.cs",
+              "DocumentMoniker": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\ViewModels\\Sliders\\CreateSliderVM.cs",
+              "RelativeDocumentMoniker": "MULTISHOP\\ViewModels\\Sliders\\CreateSliderVM.cs",
+              "ToolTip": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\ViewModels\\Sliders\\CreateSliderVM.cs",
+              "RelativeToolTip": "MULTISHOP\\ViewModels\\Sliders\\CreateSliderVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T21:12:27.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "MULTISHOP\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\Mulyoshop\\EmilMultishop\\MULTISHOP\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "MULTISHOP\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAcwC8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T20:42:24.745Z",
               "EditorCaption": ""
             }
           ]

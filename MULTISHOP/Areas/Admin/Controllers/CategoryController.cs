@@ -13,7 +13,7 @@ namespace MULTISHOP.Areas.Admin.Controllers
     {
         public async Task< IActionResult> Index()
         {
-            var data = await _context.Categories.Where(x => !x.IsDeleted).Select(s => new GetCategoryAdminVm
+            var data = await _context.Categories.Select(s => new GetCategoryAdminVm
             {
                 Name = s.Name,
                 Id = s.Id,
@@ -38,12 +38,13 @@ namespace MULTISHOP.Areas.Admin.Controllers
 
             if (!data.ImageFile.IsValidType("image"))
                 ModelState.AddModelError("ImageFile", "Fayl sekil olmalidir");
-            if (!data.ImageFile.IsValidLength(400))
-                ModelState.AddModelError("ImageFile", "Filenin olcusu 200kbdan cox olmamalidir");
+            if (!data.ImageFile.IsValidLength(500))
+                ModelState.AddModelError("ImageFile", "Filenin olcusu 500kbdan cox olmamalidir");
             if (!ModelState.IsValid)
             {
                 return View(data);
             }
+
             string fileName = await data.ImageFile.SaveFileAsync(Path.Combine(_env.WebRootPath, "imgs", "category"));
 
             Category category = new Category
@@ -63,15 +64,23 @@ namespace MULTISHOP.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        public async Task<IActionResult> ChanceVisiblity(int? id)
-        {
-            if (id == null || id < 1) return BadRequest();
-            Category data = await _context.Categories.FirstOrDefaultAsync(c => c.Id == id);
-            if (data == null) return NotFound("Melumat taplmadi");
-            data.IsDeleted=!data.IsDeleted;
-            await _context.SaveChangesAsync();
-            return Ok();
+        //public async Task<IActionResult> ChanceVisiblity(int? id)
+        //{
+        //    if (id == null || id < 1) return BadRequest();
+        //    Category data = await _context.Categories.FirstOrDefaultAsync(c => c.Id == id);
+        //    if (data == null) return NotFound("Melumat taplmadi");
+        //    data.IsDeleted=!data.IsDeleted;
+        //    await _context.SaveChangesAsync();
+        //    return Ok(data);
 
+        //}
+        public async Task<IActionResult> ChangeVisiblity(int id)
+        {
+            var data = await _context.Categories.FindAsync(id);
+            if (data == null) return NotFound("Məlumat tapılmadı");
+            data.IsDeleted = !data.IsDeleted;
+            await _context.SaveChangesAsync();
+            return Ok(data);
         }
         //{
 

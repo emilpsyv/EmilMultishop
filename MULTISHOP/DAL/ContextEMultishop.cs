@@ -10,6 +10,7 @@ namespace MULTISHOP.DAL
         public ContextEMultishop(DbContextOptions options ) : base( options ) { }
       
         public DbSet <Category> Categories { get; set; }
+        public DbSet <Slider> Sliders { get; set; }
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
