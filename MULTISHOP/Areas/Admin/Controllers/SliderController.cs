@@ -49,8 +49,8 @@ namespace MULTISHOP.Areas.Admin.Controllers
         {
             if (!data.ImageFile.IsValidType("image"))
                 ModelState.AddModelError("ImageFile", "Fayl sekil olmalidir");
-            if (!data.ImageFile.IsValidLength(500))
-                ModelState.AddModelError("ImageFile", "Filenin olcusu 500kbdan cox olmamalidir");
+            if (!data.ImageFile.IsValidLength(1000))
+                ModelState.AddModelError("ImageFile", "Filenin olcusu 1000kbdan cox olmamalidir");
             if (!ModelState.IsValid)
             {
                 return View(data);
